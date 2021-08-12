@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;700&display=swap');
+
+body {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+  margin: 8px
+}
+
+h1,h2 {
+  font-weight: 800;
+}
+
+h1 {
+  color: #08414d;
+  Font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  text-align: center;
+    
+}
+h2 {
+  color: #1215ce;
+  Font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: strong;
+}
+
+h3 {
+  color: #09043b;
+  Font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  }
+  
+a:hover {
+  color: #2600ff;
+  text-decoration: underline;
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+.card-blue {
+  background-color: #f5f5f5;
+  width: 500px;
+  margin: 20px auto;
+  padding: 32px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  }
+
+.card-white {
+  background-color: white;
+  margin: 20px auto;
+  padding: 32px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  }
+
+.img-circle{
+  border-radius: 50%;
+  }
+
+.btn-blue{
+  background-color: rgb(63,94,251);
+  background-color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: rgb(255, 249, 249);
+  padding: 10px 35px;
+  border-radius: 100px;
+}
+
+.btn-blue:hover{
+  background-color: rgb(131,58,180);
+  background-color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  color: white;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justified {
+  text-align: justified;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-white {
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+#intro p{
+  margin-bottom: 32px;
+}
+#footer {
+  font-size: 32px;
+}
+
+@media (max-width: 500px) {
+  .container {
+  width: 250px!important;
+}
+}
+
+@media (min-width: 500px) and (max-width: 770px) {
+/* For a screen < 540px, this CSS will be read */
+ .container {
+  width: 400px!important;
+}
+}
+
+@media (min-width: 771px) and (max-width: 900px) {
+/* For a screen < 720px, this CSS will be read */
+ .container {
+  width: 500px!important;
+}
+}
+
+
+
